@@ -1,9 +1,9 @@
-img {
+.img {
     width: 30px;
     height: 30px;    
 }
 
-h1 {
+.h1 {
     font-size: 30px;
     font-weight: 550;
     font-style: arial;
@@ -12,7 +12,7 @@ h1 {
     background-color: yellowgreen;
 }
 
-h2 {
+.h2 {
     text-align: center;
     font-style: arial;
     color: yellowgreen;
@@ -27,30 +27,30 @@ body {
     color: white;
 }
 
-a {
+.link {
     color: yellow;
 }
 
-a:hover {
+.link:hover {
     color: orange;
 }
 
-footer {
+.footer {
     background-color: yellowgreen;
     color: black;
 }
 
-article {
+.article {
     text-align: center;
 }
 
-.a {
+.footer__link {
     color: blue;
     font-size: 20px;
     font-weight: 500;
 }
 
-.a:hover {
+.footer__link:hover {
     color: black;
     font-size: 22px;
     font-weight: 500;

@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div class="wrapper">
+        <header class="header">
+            <form action="form">                
+                <div class="form">
+                    <label for="name">Повне ім'я</label>
+                    <input type="text" name="name[]">
+                </div>
+                <div class="form">
+                    <label for="email">Email</label>
+                    <input type="email" name="email[]">
+                </div>
+                <div class="form">
+                    <label for="password">Пароль</label>
+                    <input type="password" name="password[]">
+                </div>
+                <div class="form">
+                    <label for="password">Пароль ще раз</label>
+                    <input type="password" name="password[]">
+                </div>
+                <div class="form">
+                    <label for="sex">Стать</label>
+                    <input name="radio" type="radio" name="men[]">
+                    <label for="men">чоловіча</label>
+                </div>
+                <div class="form">
+                    <input name="radio" type="radio" name="women[]">
+                    <label for="women">жіноча</label>
+                </div>
+                <div class="form">
+                    Вік<label for="women">жіноча</label>
+                    <input type="number" name="year[]">
+                </div>
+                <div class="form__select">
+                    <label for="kurs">Курс</label>
+                    <select name="kurs[]" id="">
+                        <option value="-=Виберіть курс=-">-=Виберіть курс=-</option>
+                        <option value="1">1</option>
+                        <option value="2">2</option>
+                        <option value="3">3</option>
+                    </select>
+                </div>
+                <div class="form">
+                    <label for="adress">Повна адреса</label>
+                    <textarea name="adress" id="" cols="" rows="" placeholder="Країна, регіон, місто/селище, вулиця"></textarea>
+                </div>
+                <div class="form__check">
+                    <label for="inp3">
+                        <input id="check1" type="checkbox"> 
+                        Я погоджуюсь з обробкою персональних даних                       
+                    </label>
+                </div>
+                <br>
+                <button type="reset">Очистити форму</button>
+                <button type="submit">Зареєструватися</button>
+                
+            </form>
+        </header>
+    </div>
+
+</body>
+</html>

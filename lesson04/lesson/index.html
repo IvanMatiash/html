@@ -3,10 +3,11 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
+  <title>Document</title>  
   <link rel="stylesheet" href="styles/index.css">
 </head>
 <body>
+  <!-- start navigation -->
   <header>
     <h1 id="site-name" class="site-name">Our first website</h1>
     <nav>
@@ -16,14 +17,15 @@
         <li> 
           <a href="#form">Form</a></li>
       </ul>
-
     </nav>
   </header>
+  <!-- end navigation -->
   <main>
-    <section id="section1">
-      <h3>Our first image</h3>
+    <section id="section1" class="content-block">
+      <h3>Our first image</h3>      
       <img src="img/picture.svg" alt="People" title="People" width="300">
-      <table>
+      <!-- start table -->
+      <table class="books">
         <caption>Books</caption>
         <tr>
           <th>Books</th>
@@ -38,17 +40,23 @@
           <td>Done</td>
         </tr>
       </table>
+      <!-- end table -->
     </section>
-    <section>
+    <section class="content-block">
+      <!-- start form -->
+      <p>Some text</p>
       <form id="form">
         <input type="email" placeholder="your email">
         <textarea placeholder="message" name="message" rows="4"></textarea>
         <button type="submit">Submit</button>
       </form>
+      <!-- end form -->
     </section>
   </main>
-  <footer>
-    <h2>Goodbye!</h2>
+  <!-- start footer -->
+  <footer>    
+    <h2>Goodbye!</h2>    
   </footer>
+    <!-- end footer -->
 </body>
 </html>

@@ -1,0 +1,95 @@
+
+/* Global style */
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    color: #070707;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 18px;
+
+}
+
+button {
+    background: transparent;
+    border: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+img {
+    display: block;
+}
+
+.title {    
+    font-size: 72px;    
+    /* font-style: normal; */
+    /* товщина тексту */
+    font-weight: 700; 
+    /* відступ між строками */
+    line-height: normal;
+    text-align: left;
+}
+
+.h2 {
+    font-size: 34px;
+    font-weight: 700;
+    text-align: center;
+}
+
+.text {    
+    text-align: center;    
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    font-size: 18px;
+    padding-bottom: 40px;
+}
+
+.link {
+    counter-reset: #828282;
+}
+
+.link--active {
+    color: #070707;
+}
+
+.container {
+    width: 100%;
+    max-width: 970px;
+/* відступи горизонталь / вертикаль */
+    margin: 0 auto;
+}
+/* Global style end */
+
+/* Global Header*/
+
+.header__nav {
+    text-align: center;
+
+}
+
+/* Global Header end*/
+
+/* section hero */
+.hero__img {
+    width: 100%;
+}
+/* section hero end */
+
+/* section about me */
+.about {
+    background: #f6f6f6;
+}
+
+.about .container {
+    max-width: 480px;    
+}
+
+/* section about me end*/

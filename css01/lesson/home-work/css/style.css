@@ -10,20 +10,21 @@
 body {
     color: #070707;
     font-family: 'Open Sans', sans-serif;
-    font-size: 18px;
+    font-size: 18px;    
 }
 
-button {й   
+button {   
     background: transparent;
     border: none;
 }
 
 a {
     text-decoration: none;
+    color: #828282;    
 }
 
 img {
-    display: block;
+    display: block;    
 }
 
 .title {    
@@ -51,29 +52,30 @@ img {
     padding-bottom: 40px;
 }
 
-.link {
-    counter-reset: #828282;
-}
-
-.link--active {
-    color: #070707;
-}
-
 .container {
     width: 100%;
     max-width: 970px;
 /* відступи горизонталь / вертикаль */
     margin: 0 auto;
 }
+
+.skills__row {
+    display: flex;
+    justify-content: space-around;
+}
+
+.skills__item |{
+    display: flex; 
+    gap: 16px;   
+}
 /* Global style end */
 
 /* Global Header*/
 
-.header__nav {
-    text-align: center;
-
+.header {
+    text-align: center;     
+    gap: 40px;
 }
-
 /* Global Header end*/
 
 /* section hero */
@@ -81,6 +83,38 @@ img {
     width: 100%;
 }
 /* section hero end */
+
+.skills {
+    text-align: center;
+}
+.skills__title {
+    text-align: center;
+}
+
+.skills__stars {
+ color: #828282;
+}
+
+.is-active {
+    color: black;
+}
+
+.skills__product {   
+    text-align: center;
+}
+
+.skills__rating {
+    display: flex;    
+}
+
+.star-black {
+    color: black;
+}
+
+.star-gray {
+    color: gray;
+}
+
 
 /* section about me */
 .about {

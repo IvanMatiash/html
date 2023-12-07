@@ -1,0 +1,95 @@
+
+/* Стилі:
+
+інлайнові (в рядку елементу):
+    style="color: pink"
+
+внутрішні (на сторінці index.html): 
+    <style></style>
+
+зовнішні (окремомий файл): 
+    <link rel="stylesheet" href="./css/style.css">*/
+
+/* селектор і декларації значенням по пріоритетності*/
+
+/* звернення за ід 100*/
+#site-name {}
+
+/* звернення за класом 10*/
+.content {}
+
+/* звернення за тегом 1*/
+img {}
+
+/* назва і значення декларації */
+.container {
+    /* ширина */
+    width: 200px;
+    /* висота */
+    height: 200px;   
+    /* колір фону */
+    background-color: blue;
+    /* фонове зображення */
+    background-image: url(../);
+    /* повтор зображення */
+    background-repeat: no-repeat;
+    /* розмір зображення */
+    background-size: cover;
+    /* вирівнювання зображення */
+    background-position: center;
+    /* заокруглення полів */
+    border-radius: 10px;
+    /* курсор */
+    cursor: pointer;
+    /* плавність */
+    transition: 0.5s;
+    /* приховати все що виходить за межі контейнеру */
+    overflow: hidden;
+    /* для тексту шрифт, розмір, товщина, ширина, колір*/
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 26px;      
+    font-family: 'Courier New', Courier, monospace;
+    /* в одну строчку */
+    font: 700 20px/26px 'Courier New', Courier, monospace;    
+}
+
+/* псевдоелементи тільки з контент (before after)*/
+.title::after {
+    content: "";
+    display: block;
+    width: 100px;
+    height: 3px;
+    background-color: blue;}
+
+/* псевдокласи :hover :focus :active */
+.box1:hover {}
+
+/* звернення до першого чи останнього first/last-child */
+.section:first-child {}
+
+/* звернення по індексу */
+.section1:nth-child(3) {}
+
+/* звернення по парним/ не парним*/
+.section1:nth-child(2n) {}
+
+/* знаходить елемент всередині */
+.hero>.title {}
+
+/* звернення до першого елементу під */
+.hero+.title {}
+
+/* звернення до всіх елементів під */
+.hero~.title {}
+
+/* перевірка чекеду */
+.field__input:checked {}
+
+/* приховування тексту */
+.field__text {
+    display: none;}
+
+.fild__input:checked+.fild__text {
+    display: block;}
+

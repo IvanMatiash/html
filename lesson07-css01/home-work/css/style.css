@@ -1,0 +1,157 @@
+/* global style */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Open Sans;
+    color: #070707;
+    
+}
+
+.wrapper {
+    margin: 0 auto;
+}
+
+h2 {
+    padding-bottom: 25px;
+    font-size: 34px;
+    font-weight: 700;    
+}
+/* end global style */
+
+/* header  */
+
+.header {
+    text-align: center;
+    padding-top: 25px;
+
+}
+
+.nav__link {
+    color: gray;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-align: center;
+    text-decoration: none;
+    padding: 25px;
+}
+
+.nav__link__active {
+    color: black;
+}
+
+
+/* header end */
+
+/* hero */
+.hero__h2 {    
+    font-size: 47.339px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    
+}
+
+.hero__img {
+    width: 943.612px;       
+}
+
+.container {
+    max-width: 943.612px;
+    margin: 0 auto;
+}
+
+/* end hero */
+
+
+/* about_me */
+.about_me {
+    text-align: center;
+    padding-top: 40px;
+    background-color: #F6F6F6;    
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    padding-bottom: 40px;
+    
+}
+
+.p {
+    padding: 30px;
+}
+/* end about_me */
+
+
+/* skills  */
+.skills {
+    text-align: center;
+    padding-top: 40px;       
+    font-size: 18px;
+    padding-bottom: 40px;   
+}
+
+.skills__container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    border: none;
+    padding: 40px;
+    max-width: 900px;
+    margin:  auto;     
+}
+
+.skills__item {
+    gap: 55px;
+}
+/* end skills  */
+
+
+/* portfolio */
+.portfolio {
+    text-align: center;
+    padding-top: 40px;
+    background-color: #F6F6F6;      
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    padding-bottom: 40px;    
+}
+/* end portfolio */
+
+/* footer */
+.footer {
+    text-align: center;
+    padding-top: 40px;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    padding-bottom: 40px;
+}
+
+.icon {
+    padding: 25px;
+}
+
+.button {
+    background-image: url(../img/chip.svg);      
+    width: 180px;
+    height: 44px;
+    justify-content: center;
+    align-items: center;
+    border: none;
+    color: white;
+    background-repeat: no-repeat;
+    background-position: center;  
+    margin: 25px;
+}
+/* end footer */
+
+
+
+
+

@@ -103,3 +103,6 @@ flex-direction: row-reverse;
 
 .fild__input:checked+.fild__text {
     display: block;}
+/* коли вміст не влізає в контейнер */
+.qwe   {overflow: scroll;}
+

@@ -23,36 +23,47 @@ img {}
 
 /* назва і значення декларації */
 .container {
-    /* ширина */
-    width: 200px;
-    /* висота */
-    height: 200px;   
-    /* колір фону */
-    background-color: blue;
-    /* фонове зображення */
-    background-image: url(../);
-    /* повтор зображення */
-    background-repeat: no-repeat;
-    /* розмір зображення */
-    background-size: cover;
-    /* вирівнювання зображення */
-    background-position: center;
-    /* заокруглення полів */
-    border-radius: 10px;
-    /* курсор */
-    cursor: pointer;
-    /* плавність */
-    transition: 0.5s;
-    /* приховати все що виходить за межі контейнеру */
-    overflow: hidden;
-    /* для тексту шрифт, розмір, товщина, ширина, колір*/
-    font-weight: 700;
-    font-size: 20px;
-    line-height: 26px;      
-    font-family: 'Courier New', Courier, monospace;
-    /* в одну строчку */
-    font: 700 20px/26px 'Courier New', Courier, monospace;    
-}
+/* ширина */
+width: 200px;
+/* висота */
+height: 200px;   
+/* колір фону */
+background-color: blue;
+/* фонове зображення */
+background-image: url(../);
+/* повтор зображення */
+background-repeat: no-repeat;
+/* розмір зображення */
+background-size: cover;
+/* вирівнювання зображення */
+background-position: center;
+/* заокруглення полів */
+border-radius: 10px;
+/* курсор */
+cursor: pointer;
+/* плавність */
+transition: 0.5s;
+/* приховати все що виходить за межі контейнеру */
+overflow: hidden;
+/* для тексту шрифт, розмір, товщина, ширина, колір*/
+font-weight: 700;
+font-size: 20px;
+line-height: 26px;
+font-family: 'Courier New', Courier, monospace;
+/* в одну строчку */
+font: 700 20px/26px 'Courier New', Courier, monospace;   
+/* вирівнювання по висоті */
+justify-content: center;
+/* вирівнювання по горизонталі */
+align-items: center;
+/* порядок задом наперед */
+flex-direction: row-reverse;
+/* перший блок вкінці у різних версіях сайту */
+.box:first-child {
+    order: -1;    }
+/* останній блок спочатку у різних версіях сайту */
+.box:last-child {
+    order: 1;    }   
 
 /* псевдоелементи тільки з контент (before after)*/
 .title::after {
@@ -92,4 +103,3 @@ img {}
 
 .fild__input:checked+.fild__text {
     display: block;}
-

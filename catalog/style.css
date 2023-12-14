@@ -106,3 +106,11 @@ flex-direction: row-reverse;
 /* коли вміст не влізає в контейнер */
 .qwe   {overflow: scroll;}
 
+ /* коефіцієнт стискання */
+ flex-shrink: 1;
+ /* заповнює вільне місце */
+ flex-grow: 1;
+ /* розмір по основній осі row = width cplumn = height */
+ flex-basis: 100px;
+
+ 
